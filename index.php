@@ -14,7 +14,7 @@
 			$errors['email'] = true;	
 		}
 		
-		if () {
+		if (mb_strlen($message)) {	// mb_strlen = multi-byte string length
 			$errors['message'] = true;	
 		}
 	}
